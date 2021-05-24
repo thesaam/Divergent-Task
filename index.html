@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Divergent Task</title>
+</head>
+<body>
+  <div class="bg-top">
+    <div class="bg-top-left">
+      <img src="./img/download (3).png" alt="bg-top-left">
+    </div>
+
+  
+  
+    <div class="bg-top-right">
+      <img src="./img/download (2).png" alt="bg-top-right">
+    </div>
+  </div>
+  
+  <main class="mainarea">
+    <div class="logo">
+      <img src="./img/logo.png" alt="piggvest logo">
+    </div>
+    <form action="#" onsubmit="submit()">
+      <div class="formtop">
+        <h2 class="primary-text">Login to your account</h2>
+        <p class="primary-sub">Securely login to your piggvest</p>
+      </div>
+      <div class="form-main">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password">
+        </div>
+      </div>
+      <button class="btn" onclick="button()">LOG IN</button>
+    </form>
+  </main>
+  
+  <div class="bg-btm">
+    <div class="bg-btm-left">
+      <img src="./img/download (1).png" alt="bg-btm-right">
+    </div>
+    <div class="btm-link">
+      <div class="reg" onclick="Register()">
+        <a href="#">Don't have an account? Register</a>
+      </div>
+      <div class="pwd">
+        <a href="#" onclick="forgot()">Forgot password</a>
+      </div>
+    </div>
+    <div class="bg-btm-right">
+      <img src="./img/download.png" alt="bg-btm-right">
+    </div>
+  </div>
+
+
+  <script src="./app.js"></script>
+</body>
+</html>
