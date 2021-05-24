@@ -5,7 +5,7 @@ function button() {
   alert (final)
 
   var emailInput = document.getElementById("email").value;
-  var clickOk = '\nClick OK for hte next output';
+  var clickOk = '\nClick OK for the next output';
   alert('Email: ' + emailInput + clickOk);
 
   var pwd = document.getElementById("password").value;
