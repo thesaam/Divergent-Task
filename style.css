@@ -37,7 +37,8 @@ a:hover {
 
 .btn {
   padding: 20px 17px;
-  margin: 20px 0px;
+  margin-top: 30px;
+  margin-bottom: 45px;
   width: 97%;
   background: var(--btn-color);
   border: none;
@@ -55,7 +56,7 @@ a:hover {
 body {
   font-family: 'Poppins', sans-serif;
   background: var(--blue);
-  overflow: hidden;
+  /* overflow: hidden; */
   line-height: 1.4;
 }
 
@@ -67,15 +68,16 @@ body {
 .bg-top-left img {
   width: 300px;
   height: 300px;
-  position: relative;
-  top: -100px;
+  top: -12.5%;
+  position: fixed;
 }
 
 .bg-top-right img {
   width: 300px;
   height: 300px;
-  position: relative;
-  margin-right: -90px;
+  position: fixed;
+  right: -5%;
+  top: 0;
 }
 
 
@@ -86,9 +88,9 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0px auto;
-  margin-top: -300px;
+  margin-top: 50px;
   max-width: 32.5%;
-  padding: 20px 30px;
+  padding: 10px 40px;
 }
 
  
@@ -96,7 +98,7 @@ form {
   text-align: center;
   background: var(--white);
   width: 100%; 
-  padding: 20px;
+  padding: 0px 40px;
   margin-top: 10px;
   border-bottom-right-radius: 30px;
   border-top-right-radius: 30px;
@@ -145,17 +147,17 @@ form .formtop .primary-sub {
 .bg-btm-left img {
   width: 300px;
   height: 300px;
-  position: relative;
-  bottom: -40px;
-  left: -90px;
+  left: -5%;
+  bottom: -15%;
+  position: fixed;
 }
 
 .bg-btm-right img {
   width: 300px;
   height: 300px;
-  position: relative;
-  bottom: -60px;
-  right: -35px;
+  position: fixed;
+  right: -5%;
+  bottom: -10%;
 }
 
 .btm-link {
