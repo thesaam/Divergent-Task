@@ -60,3 +60,55 @@
   }
   
 }
+
+@media (min-width: 501px) and (max-width: 768px) {
+  .mainarea {
+    max-width: 100%;
+    margin-top: 100px;
+  }
+
+  form {
+    z-index: 1000;
+  }
+
+  .bg-top-right img {
+    width: 200px;
+    height: 200px;
+    right: -10%;
+  }
+
+  .bg-top-left img {
+    width: 200px;
+    height: 200px;
+    top: -10%;
+    left: -5%;
+    z-index: -1;
+  }
+
+  .bg-btm-left img {
+    width: 200px;
+    height: 200px;
+    left: -8.5%;
+    bottom: -2.5%;
+    z-index: -1;
+  }
+  
+  .bg-btm-right img {
+    width: 200px;
+    height: 200px;
+    right: -8.5%;
+    bottom: -2.5%;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .mainarea {
+    max-width: 100%;
+    margin-top: 200px;
+  }
+
+  .btn {
+    margin-bottom: 30px;
+  }
+}
